@@ -1,0 +1,9 @@
+clanbomber2 (@VERSION@-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alp Toker <alp@atoker.com>  Tue, 30 Oct 2001 17:35:38 +0000
+
+Local variables:
+mode: debian-changelog
+End:

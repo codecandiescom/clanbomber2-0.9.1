@@ -1,0 +1,2 @@
+?package(clanbomber2):needs="vc" section="Games/Arcade" title="ClanBomber 2" command="/usr/games/clanbomber2"
+

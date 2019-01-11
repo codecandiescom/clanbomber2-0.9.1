@@ -1,0 +1,25 @@
+Source: clanbomber2
+Section: games
+Priority: optional
+Maintainer: Alp Toker <alp@atoker.com>
+Build-Depends: debhelper, libdirectfb-dev, libfusionsound-dev, pkg-config
+Standards-Version: 3.5.6
+
+Package: clanbomber2
+Architecture: any
+Depends: clanbomber2-data (= ${Source-Version}), ${shlibs:Depends}
+Description: a Bomberman-like multiplayer arcade game
+ ClanBomber 2 is a game where players must plant bombs whilst avoiding
+ those of others. It features computer-controlled bombers as well as a
+ network mode, allowing a user to play with up to 7 others across a
+ LAN or the Internet.
+ A child-safe censored mode is provided for those who wish to control
+ the violence level of the game. ClanBomber 2 uses the advanced
+ DirectFB accelerated graphics library to provide a smooth and
+ pleasant game-playing experience.
+
+Package: clanbomber2-data
+Architecture: all
+Depends: clanbomber2 (= ${Source-Version})
+Description: data files for the game ClanBomber 2
+ This package includes graphics and sounds for ClanBomber 2.
